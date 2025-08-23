@@ -1,0 +1,15 @@
+C:\Users\Student\source\repos\ConsoleApp2\Calculus systems\bin\Debug\net7.0\Calculus systems.exe
+C:\Users\Student\source\repos\ConsoleApp2\Calculus systems\bin\Debug\net7.0\Calculus systems.deps.json
+C:\Users\Student\source\repos\ConsoleApp2\Calculus systems\bin\Debug\net7.0\Calculus systems.runtimeconfig.json
+C:\Users\Student\source\repos\ConsoleApp2\Calculus systems\bin\Debug\net7.0\Calculus systems.dll
+C:\Users\Student\source\repos\ConsoleApp2\Calculus systems\bin\Debug\net7.0\Calculus systems.pdb
+C:\Users\Student\source\repos\ConsoleApp2\Calculus systems\obj\Debug\net7.0\Calculus systems.csproj.AssemblyReference.cache
+C:\Users\Student\source\repos\ConsoleApp2\Calculus systems\obj\Debug\net7.0\Calculus systems.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\source\repos\ConsoleApp2\Calculus systems\obj\Debug\net7.0\Calculus systems.AssemblyInfoInputs.cache
+C:\Users\Student\source\repos\ConsoleApp2\Calculus systems\obj\Debug\net7.0\Calculus systems.AssemblyInfo.cs
+C:\Users\Student\source\repos\ConsoleApp2\Calculus systems\obj\Debug\net7.0\Calculus systems.csproj.CoreCompileInputs.cache
+C:\Users\Student\source\repos\ConsoleApp2\Calculus systems\obj\Debug\net7.0\Calculus systems.dll
+C:\Users\Student\source\repos\ConsoleApp2\Calculus systems\obj\Debug\net7.0\refint\Calculus systems.dll
+C:\Users\Student\source\repos\ConsoleApp2\Calculus systems\obj\Debug\net7.0\Calculus systems.pdb
+C:\Users\Student\source\repos\ConsoleApp2\Calculus systems\obj\Debug\net7.0\Calculus systems.genruntimeconfig.cache
+C:\Users\Student\source\repos\ConsoleApp2\Calculus systems\obj\Debug\net7.0\ref\Calculus systems.dll

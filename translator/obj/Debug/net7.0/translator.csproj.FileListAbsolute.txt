@@ -1,0 +1,15 @@
+C:\Users\Student\source\repos\ConsoleApp2\translator\bin\Debug\net7.0\translator.exe
+C:\Users\Student\source\repos\ConsoleApp2\translator\bin\Debug\net7.0\translator.deps.json
+C:\Users\Student\source\repos\ConsoleApp2\translator\bin\Debug\net7.0\translator.runtimeconfig.json
+C:\Users\Student\source\repos\ConsoleApp2\translator\bin\Debug\net7.0\translator.dll
+C:\Users\Student\source\repos\ConsoleApp2\translator\bin\Debug\net7.0\translator.pdb
+C:\Users\Student\source\repos\ConsoleApp2\translator\obj\Debug\net7.0\translator.csproj.AssemblyReference.cache
+C:\Users\Student\source\repos\ConsoleApp2\translator\obj\Debug\net7.0\translator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\source\repos\ConsoleApp2\translator\obj\Debug\net7.0\translator.AssemblyInfoInputs.cache
+C:\Users\Student\source\repos\ConsoleApp2\translator\obj\Debug\net7.0\translator.AssemblyInfo.cs
+C:\Users\Student\source\repos\ConsoleApp2\translator\obj\Debug\net7.0\translator.csproj.CoreCompileInputs.cache
+C:\Users\Student\source\repos\ConsoleApp2\translator\obj\Debug\net7.0\translator.dll
+C:\Users\Student\source\repos\ConsoleApp2\translator\obj\Debug\net7.0\refint\translator.dll
+C:\Users\Student\source\repos\ConsoleApp2\translator\obj\Debug\net7.0\translator.pdb
+C:\Users\Student\source\repos\ConsoleApp2\translator\obj\Debug\net7.0\translator.genruntimeconfig.cache
+C:\Users\Student\source\repos\ConsoleApp2\translator\obj\Debug\net7.0\ref\translator.dll

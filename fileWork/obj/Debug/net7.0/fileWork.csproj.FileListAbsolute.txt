@@ -1,0 +1,15 @@
+C:\Users\Student\source\repos\ConsoleApp2\fileWork\bin\Debug\net7.0\fileWork.exe
+C:\Users\Student\source\repos\ConsoleApp2\fileWork\bin\Debug\net7.0\fileWork.deps.json
+C:\Users\Student\source\repos\ConsoleApp2\fileWork\bin\Debug\net7.0\fileWork.runtimeconfig.json
+C:\Users\Student\source\repos\ConsoleApp2\fileWork\bin\Debug\net7.0\fileWork.dll
+C:\Users\Student\source\repos\ConsoleApp2\fileWork\bin\Debug\net7.0\fileWork.pdb
+C:\Users\Student\source\repos\ConsoleApp2\fileWork\obj\Debug\net7.0\fileWork.csproj.AssemblyReference.cache
+C:\Users\Student\source\repos\ConsoleApp2\fileWork\obj\Debug\net7.0\fileWork.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\source\repos\ConsoleApp2\fileWork\obj\Debug\net7.0\fileWork.AssemblyInfoInputs.cache
+C:\Users\Student\source\repos\ConsoleApp2\fileWork\obj\Debug\net7.0\fileWork.AssemblyInfo.cs
+C:\Users\Student\source\repos\ConsoleApp2\fileWork\obj\Debug\net7.0\fileWork.csproj.CoreCompileInputs.cache
+C:\Users\Student\source\repos\ConsoleApp2\fileWork\obj\Debug\net7.0\fileWork.dll
+C:\Users\Student\source\repos\ConsoleApp2\fileWork\obj\Debug\net7.0\refint\fileWork.dll
+C:\Users\Student\source\repos\ConsoleApp2\fileWork\obj\Debug\net7.0\fileWork.pdb
+C:\Users\Student\source\repos\ConsoleApp2\fileWork\obj\Debug\net7.0\fileWork.genruntimeconfig.cache
+C:\Users\Student\source\repos\ConsoleApp2\fileWork\obj\Debug\net7.0\ref\fileWork.dll

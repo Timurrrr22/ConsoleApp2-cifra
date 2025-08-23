@@ -1,0 +1,15 @@
+C:\Users\Student\source\repos\ConsoleApp2\подстрока\bin\Debug\net7.0\подстрока.exe
+C:\Users\Student\source\repos\ConsoleApp2\подстрока\bin\Debug\net7.0\подстрока.deps.json
+C:\Users\Student\source\repos\ConsoleApp2\подстрока\bin\Debug\net7.0\подстрока.runtimeconfig.json
+C:\Users\Student\source\repos\ConsoleApp2\подстрока\bin\Debug\net7.0\подстрока.dll
+C:\Users\Student\source\repos\ConsoleApp2\подстрока\bin\Debug\net7.0\подстрока.pdb
+C:\Users\Student\source\repos\ConsoleApp2\подстрока\obj\Debug\net7.0\подстрока.csproj.AssemblyReference.cache
+C:\Users\Student\source\repos\ConsoleApp2\подстрока\obj\Debug\net7.0\подстрока.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\source\repos\ConsoleApp2\подстрока\obj\Debug\net7.0\подстрока.AssemblyInfoInputs.cache
+C:\Users\Student\source\repos\ConsoleApp2\подстрока\obj\Debug\net7.0\подстрока.AssemblyInfo.cs
+C:\Users\Student\source\repos\ConsoleApp2\подстрока\obj\Debug\net7.0\подстрока.csproj.CoreCompileInputs.cache
+C:\Users\Student\source\repos\ConsoleApp2\подстрока\obj\Debug\net7.0\подстрока.dll
+C:\Users\Student\source\repos\ConsoleApp2\подстрока\obj\Debug\net7.0\refint\подстрока.dll
+C:\Users\Student\source\repos\ConsoleApp2\подстрока\obj\Debug\net7.0\подстрока.pdb
+C:\Users\Student\source\repos\ConsoleApp2\подстрока\obj\Debug\net7.0\подстрока.genruntimeconfig.cache
+C:\Users\Student\source\repos\ConsoleApp2\подстрока\obj\Debug\net7.0\ref\подстрока.dll

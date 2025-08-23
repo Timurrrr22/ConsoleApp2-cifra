@@ -1,0 +1,6 @@
+1,Lion,Carnivore
+2,Elephant,Herbivore
+3,Bear,Omnivore
+4,Tiger,Carnivore
+5,Giraffe,Herbivore
+6,Pig,Omnivore

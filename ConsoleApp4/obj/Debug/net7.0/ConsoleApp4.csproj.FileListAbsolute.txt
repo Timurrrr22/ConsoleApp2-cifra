@@ -1,0 +1,15 @@
+C:\Users\Student\source\repos\ConsoleApp2\ConsoleApp4\bin\Debug\net7.0\ConsoleApp4.exe
+C:\Users\Student\source\repos\ConsoleApp2\ConsoleApp4\bin\Debug\net7.0\ConsoleApp4.deps.json
+C:\Users\Student\source\repos\ConsoleApp2\ConsoleApp4\bin\Debug\net7.0\ConsoleApp4.runtimeconfig.json
+C:\Users\Student\source\repos\ConsoleApp2\ConsoleApp4\bin\Debug\net7.0\ConsoleApp4.dll
+C:\Users\Student\source\repos\ConsoleApp2\ConsoleApp4\bin\Debug\net7.0\ConsoleApp4.pdb
+C:\Users\Student\source\repos\ConsoleApp2\ConsoleApp4\obj\Debug\net7.0\ConsoleApp4.csproj.AssemblyReference.cache
+C:\Users\Student\source\repos\ConsoleApp2\ConsoleApp4\obj\Debug\net7.0\ConsoleApp4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\source\repos\ConsoleApp2\ConsoleApp4\obj\Debug\net7.0\ConsoleApp4.AssemblyInfoInputs.cache
+C:\Users\Student\source\repos\ConsoleApp2\ConsoleApp4\obj\Debug\net7.0\ConsoleApp4.AssemblyInfo.cs
+C:\Users\Student\source\repos\ConsoleApp2\ConsoleApp4\obj\Debug\net7.0\ConsoleApp4.csproj.CoreCompileInputs.cache
+C:\Users\Student\source\repos\ConsoleApp2\ConsoleApp4\obj\Debug\net7.0\ConsoleApp4.dll
+C:\Users\Student\source\repos\ConsoleApp2\ConsoleApp4\obj\Debug\net7.0\refint\ConsoleApp4.dll
+C:\Users\Student\source\repos\ConsoleApp2\ConsoleApp4\obj\Debug\net7.0\ConsoleApp4.pdb
+C:\Users\Student\source\repos\ConsoleApp2\ConsoleApp4\obj\Debug\net7.0\ConsoleApp4.genruntimeconfig.cache
+C:\Users\Student\source\repos\ConsoleApp2\ConsoleApp4\obj\Debug\net7.0\ref\ConsoleApp4.dll

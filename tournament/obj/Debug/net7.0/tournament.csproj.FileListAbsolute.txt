@@ -1,0 +1,15 @@
+C:\Users\Student\source\repos\ConsoleApp2\tournament\bin\Debug\net7.0\tournament.exe
+C:\Users\Student\source\repos\ConsoleApp2\tournament\bin\Debug\net7.0\tournament.deps.json
+C:\Users\Student\source\repos\ConsoleApp2\tournament\bin\Debug\net7.0\tournament.runtimeconfig.json
+C:\Users\Student\source\repos\ConsoleApp2\tournament\bin\Debug\net7.0\tournament.dll
+C:\Users\Student\source\repos\ConsoleApp2\tournament\bin\Debug\net7.0\tournament.pdb
+C:\Users\Student\source\repos\ConsoleApp2\tournament\obj\Debug\net7.0\tournament.csproj.AssemblyReference.cache
+C:\Users\Student\source\repos\ConsoleApp2\tournament\obj\Debug\net7.0\tournament.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\source\repos\ConsoleApp2\tournament\obj\Debug\net7.0\tournament.AssemblyInfoInputs.cache
+C:\Users\Student\source\repos\ConsoleApp2\tournament\obj\Debug\net7.0\tournament.AssemblyInfo.cs
+C:\Users\Student\source\repos\ConsoleApp2\tournament\obj\Debug\net7.0\tournament.csproj.CoreCompileInputs.cache
+C:\Users\Student\source\repos\ConsoleApp2\tournament\obj\Debug\net7.0\tournament.dll
+C:\Users\Student\source\repos\ConsoleApp2\tournament\obj\Debug\net7.0\refint\tournament.dll
+C:\Users\Student\source\repos\ConsoleApp2\tournament\obj\Debug\net7.0\tournament.pdb
+C:\Users\Student\source\repos\ConsoleApp2\tournament\obj\Debug\net7.0\tournament.genruntimeconfig.cache
+C:\Users\Student\source\repos\ConsoleApp2\tournament\obj\Debug\net7.0\ref\tournament.dll
