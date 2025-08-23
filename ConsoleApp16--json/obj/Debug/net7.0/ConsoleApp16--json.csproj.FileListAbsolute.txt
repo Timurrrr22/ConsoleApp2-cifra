@@ -1,0 +1,15 @@
+C:\Users\Student\source\repos\ConsoleApp2\ConsoleApp16--json\bin\Debug\net7.0\ConsoleApp16--json.exe
+C:\Users\Student\source\repos\ConsoleApp2\ConsoleApp16--json\bin\Debug\net7.0\ConsoleApp16--json.deps.json
+C:\Users\Student\source\repos\ConsoleApp2\ConsoleApp16--json\bin\Debug\net7.0\ConsoleApp16--json.runtimeconfig.json
+C:\Users\Student\source\repos\ConsoleApp2\ConsoleApp16--json\bin\Debug\net7.0\ConsoleApp16--json.dll
+C:\Users\Student\source\repos\ConsoleApp2\ConsoleApp16--json\bin\Debug\net7.0\ConsoleApp16--json.pdb
+C:\Users\Student\source\repos\ConsoleApp2\ConsoleApp16--json\obj\Debug\net7.0\ConsoleApp16--json.csproj.AssemblyReference.cache
+C:\Users\Student\source\repos\ConsoleApp2\ConsoleApp16--json\obj\Debug\net7.0\ConsoleApp16--json.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\source\repos\ConsoleApp2\ConsoleApp16--json\obj\Debug\net7.0\ConsoleApp16--json.AssemblyInfoInputs.cache
+C:\Users\Student\source\repos\ConsoleApp2\ConsoleApp16--json\obj\Debug\net7.0\ConsoleApp16--json.AssemblyInfo.cs
+C:\Users\Student\source\repos\ConsoleApp2\ConsoleApp16--json\obj\Debug\net7.0\ConsoleApp16--json.csproj.CoreCompileInputs.cache
+C:\Users\Student\source\repos\ConsoleApp2\ConsoleApp16--json\obj\Debug\net7.0\ConsoleApp16--json.dll
+C:\Users\Student\source\repos\ConsoleApp2\ConsoleApp16--json\obj\Debug\net7.0\refint\ConsoleApp16--json.dll
+C:\Users\Student\source\repos\ConsoleApp2\ConsoleApp16--json\obj\Debug\net7.0\ConsoleApp16--json.pdb
+C:\Users\Student\source\repos\ConsoleApp2\ConsoleApp16--json\obj\Debug\net7.0\ConsoleApp16--json.genruntimeconfig.cache
+C:\Users\Student\source\repos\ConsoleApp2\ConsoleApp16--json\obj\Debug\net7.0\ref\ConsoleApp16--json.dll
