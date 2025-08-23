@@ -41,7 +41,7 @@ List<Product> products = new List<Product>()
 //File.WriteAllText(filePath, jsonStr);
 
 string json = File.ReadAllText("Z:\\Gaziev\\gvgv.json");
-Product[] prr = JsonSerializer.Deserialize<Product[]>(json);
+Product[] prr = JsonSerializer.Deserialize<Product[]>(json, options);
 foreach(var product in prr)
 {
     Console.WriteLine(
