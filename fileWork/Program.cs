@@ -13,7 +13,7 @@
 
 ////    File.WriteAllText(path, userInfo);
 ////}
-
+int a = 10 + 5;
 
 ////2
 ////Console.WriteLine("Введите ваш файл со списком покупок: ");
