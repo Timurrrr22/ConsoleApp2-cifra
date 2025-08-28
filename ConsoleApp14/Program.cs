@@ -1,12 +1,55 @@
-﻿// Размер особняка
-const int MansionSize = 5;
+﻿using System;
+using System.Threading;
 
-// Типы комнат
-const int Empty = 0; //пустая
-const int Clue = 1; //ключ
-const int Locked = 2; //закрытая
-const int Puzzle = 3; //комната с загадкой
-const int Final = 4; //финал
+class Car
+{
+    private int position;
+    private readonly object lockObject = new object();
 
-int[,] mansionMap = new int[MansionSize, MansionSize];
+    public Car()
+    {
+        position = 0;
+    }
+
+    public void Move()
+    {
+        while (position < 10) 
+        {
+            Thread.Sleep(1000); 
+            lock (lockObject)
+            {
+                position++;
+                Console.WriteLine($"Машинка на позиции: {position}");
+            }
+        }
+    }
+
+    public int GetPosition()
+    {
+        lock (lockObject)
+        {
+            return position;
+        }
+    }
+}
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Car car1 = new Car();
+        Car car2 = new Car();
+
+        Thread thread1 = new Thread(car1.Move);
+        Thread thread2 = new Thread(car2.Move);
+
+        thread1.Start();
+        thread2.Start();
+
+        thread1.Join(); 
+        thread2.Join(); 
+
+        Console.WriteLine("Гонка окончена!");
+    }
+}
 
