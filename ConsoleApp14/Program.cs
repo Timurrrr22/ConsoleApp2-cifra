@@ -67,12 +67,6 @@ class Program
 
 //В C# поток можно создать с помощью класса Thread. Пример создания и запуска потока:
 
-//C#
-//
-//
-//using System;
-//using System.Threading;
-
 //class Program
 //{
 //    static void Main()
