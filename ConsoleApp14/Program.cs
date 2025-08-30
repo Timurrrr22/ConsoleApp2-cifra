@@ -1,62 +1,65 @@
 ﻿using System;
 using System.Threading;
 
-class Car
-{
-    private int position;
-    private readonly object lockObject = new object();
+//class Car
+//{
+//    private int position;
+//    private readonly object lockObject = new object();
+//    public string Name;
 
-    public Car()
-    {
-        position = 0;
-    }
+//    public Car(string name)
+//    {
+//        position = 0;
+//        Name = name;
+//    }
 
-    public void Move()
-    {
-        Thread.Sleep(500);
-        lock (lockObject)
-        {
-            position++;
-            Console.WriteLine($"Машинка на позиции: {position}");
-        }
-    }
+//    public void Move()
+//    {
+//        Thread.Sleep(1);
+//        lock (lockObject)
+//        {
+//            position++;
+//            if (this.Name == "Mercedes") Console.WriteLine($"{Name} на позиции: {position}");
+//            else Console.WriteLine($"          {Name} на позиции: {position}");
+//        }
+//    }
 
 
-    public int GetPosition()
-    {
-        lock (lockObject)
-        {
-            return position;
-        }
-    }
-}
+//    public int GetPosition()
+//    {
+//        lock (lockObject)
+//        {
+//            return position;
+//        }
+//    }
+//}
 
-class Program
-{
-    static void Main(string[] args)
-    {
-        Car car1 = new Car();
-        Car car2 = new Car();
+//class Program
+//{
+//    static void Main(string[] args)
+//    {
+//        Car car1 = new Car("Mercedes");
+//        Car car2 = new Car("Ferrari");
 
-        Thread thread1 = new Thread(car1.Move);
-        Thread thread2 = new Thread(car2.Move);
+//        Thread thread1 = new Thread(car1.Move);
+//        Thread thread2 = new Thread(car2.Move);
 
-        thread1.Start();
-        thread2.Start();
+//        thread1.Start();
+//        thread2.Start();
 
-        while (car1.GetPosition() < 10 & car2.GetPosition() < 10)
-        {
-            Thread.Sleep(500);
-            car1.Move();
-            car2.Move();
-        }
+//        while (car1.GetPosition() < 100 & car2.GetPosition() < 100)
+//        {
+//            Thread.Sleep(1);
+//            car1.Move();
+//            car2.Move();
+//        }
 
-        thread1.Join();
-        thread2.Join();
+//        thread1.Join();
+//        thread2.Join();
 
-        Console.WriteLine("Гонка окончена!");
-    }
-}
+//        Console.WriteLine("Гонка окончена!");
+//    }
+//}
 
 
 //▎1.Что такое многозадачность, и для чего она используется в программировании?
@@ -112,3 +115,92 @@ class Program
 
 
 
+//Падающие объекты. 
+//Реализуйте анимацию падающих объектов, например, снежинок или 
+//мячей. Каждый объект - это отдельный поток. Игрок может управлять 
+//одним из объектов, а остальные двигаются независимо.
+
+var fall1 = new FallingObject("*");
+
+class FallingObject
+{
+    private string symbol;
+    private int position;
+    private Random random;
+    private Thread thread;
+    private bool isActive;
+
+    public FallingObject(string symbol)
+    {
+        this.symbol = symbol;
+        this.position = 0;
+        this.random = new Random();
+        this.isActive = true;
+        thread = new Thread(Fall);
+    }
+
+    public void Start()
+    {
+        thread.Start();
+    }
+
+    public void Fall()
+    {
+        while (isActive)
+        {
+            Console.SetCursorPosition(1, position);
+            Console.Write(symbol);
+            Thread.Sleep(500); 
+            Console.SetCursorPosition(10, position);
+            Console.Write(" "); // Удаляем предыдущий символ
+            position++; // Падаем вниз
+
+            if (position >= Console.WindowHeight)
+            {
+                isActive = false; // Останавливаем поток, когда объект выходит за пределы окна
+            }
+        }
+    }
+
+    public void Stop()
+    {
+        isActive = false;
+    }
+}
+
+
+
+//Объектно ориентированное 
+//программирование на C# 
+//Тема 26. Домашнее задание. 
+//Введение в многопоточность 
+//Задание: Многозадачный счетчик 
+//Пояснение к выполнению: 
+//Это задание предполагает создание простого многозадачного приложения 
+//на C#. 
+//Вам нужно будет создать два потока: один для увеличения счетчика, а 
+//другой для уменьшения его значения. 
+//Основная цель - добиться параллельной работы этих потоков и обеспечить 
+//безопасное обновление общего ресурса, а именно, счетчика. 
+//Создайте класс счетчика, который будет представлять общий ресурс для 
+//обоих потоков. Этот класс должен содержать методы для увеличения и 
+//уменьшения значения счетчика, а также метод для получения текущего 
+//значения. 
+//Создайте два потока: один для увеличения счетчика и один для 
+//уменьшения. 
+//В методах каждого потока вызывайте методы счетчика для обновления 
+//значения. 
+//Обеспечьте синхронизацию доступа к счетчику так, чтобы потоки не могли 
+//перезаписать его значение одновременно. 
+//Выведите текущее значение счетчика на экран в каждом потоке. 
+//Запустите оба потока и следите за изменениями счетчика.
+
+
+//Объектно ориентированное 
+//программирование на C# 
+//Тема 26. Домашнее задание. 
+//Демонстрация организации потоков 
+//Падающие объекты. 
+//Реализуйте анимацию падающих объектов, например, снежинок или 
+//мячей. Каждый объект - это отдельный поток. Игрок может управлять 
+//одним из объектов, а остальные двигаются независимо.
