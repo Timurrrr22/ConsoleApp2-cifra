@@ -13,16 +13,14 @@ class Car
 
     public void Move()
     {
-        while (position < 10) 
+        Thread.Sleep(500);
+        lock (lockObject)
         {
-            Thread.Sleep(1000); 
-            lock (lockObject)
-            {
-                position++;
-                Console.WriteLine($"Машинка на позиции: {position}");
-            }
+            position++;
+            Console.WriteLine($"Машинка на позиции: {position}");
         }
     }
+
 
     public int GetPosition()
     {
@@ -46,8 +44,15 @@ class Program
         thread1.Start();
         thread2.Start();
 
-        thread1.Join(); 
-        thread2.Join(); 
+        while (car1.GetPosition() < 10 & car2.GetPosition() < 10)
+        {
+            Thread.Sleep(500);
+            car1.Move();
+            car2.Move();
+        }
+
+        thread1.Join();
+        thread2.Join();
 
         Console.WriteLine("Гонка окончена!");
     }
@@ -103,3 +108,7 @@ class Program
 //  – ManagedThreadId: Возвращает уникальный идентификатор потока.
 //  – Name: Имя потока(можно установить для удобства отладки).
 //  – Priority: Устанавливает или получает приоритет потока.
+
+
+
+
