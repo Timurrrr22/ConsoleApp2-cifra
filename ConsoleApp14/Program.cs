@@ -123,55 +123,110 @@ using System.Threading;
 //одним из объектов, а остальные двигаются независимо.
 
 
-var fall1 = new FallingObject("*");
 
 class FallingObject
 {
     private string symbol;
-    private int position;
-    private Random random;
+    private int positionX; 
+    private int positionY; 
     private Thread thread;
-    private bool isActive;
+    private Thread inputThread; 
+    public bool isActive;
 
     public FallingObject(string symbol)
     {
         this.symbol = symbol;
-        this.position = 0;
-        this.random = new Random();
+        this.positionX = 5; 
+        this.positionY = 0; 
         this.isActive = true;
         thread = new Thread(Fall);
+        inputThread = new Thread(HandleInput);
     }
 
     public void Start()
     {
-        thread.Start();
+        inputThread.Start(); 
+        thread.Start(); 
     }
 
     public void Fall()
     {
         while (isActive)
         {
-            Console.SetCursorPosition(1, position);
+            Console.SetCursorPosition(positionX, positionY);
             Console.Write(symbol);
-            Thread.Sleep(500);
-            Console.SetCursorPosition(10, position);
-            Console.Write(" "); // Удаляем предыдущий символ
-            position++; 
+            Thread.Sleep(1000);
+            Console.SetCursorPosition(positionX, positionY);
+            Console.Write(" ");
+            positionY++;
 
-            if (position >= Console.WindowHeight)
+            if (positionY >= Console.WindowHeight)
             {
-                isActive = false; // Останавливаем поток, когда объект выходит за пределы окна
+                isActive = false;
             }
+        }
+    }
+
+    private void HandleInput()
+    {
+        while (isActive)
+        {
+            ConsoleKey key = Console.ReadKey(true).Key;
+            switch (key)
+            {
+                case ConsoleKey.A:
+                    MoveLeft();
+                    break;
+                case ConsoleKey.D:
+                    MoveRight();
+                    break;
+            }
+        }
+    }
+
+    private void MoveLeft()
+    {
+        if (positionX > 0)
+        {
+            Console.SetCursorPosition(positionX, positionY);
+            Console.Write(" "); 
+            positionX--; 
+        }
+    }
+
+    private void MoveRight()
+    {
+        if (positionX < Console.WindowWidth ) 
+        {
+            Console.SetCursorPosition(positionX, positionY);
+            Console.Write(" "); 
+            positionX++; 
         }
     }
 
     public void Stop()
     {
         isActive = false;
+        inputThread.Join(); 
+        thread.Join(); 
     }
 }
 
-
+class Program
+{
+    static void Main(string[] args)
+    {
+        var fallingObject = new FallingObject("*"); 
+        fallingObject.Start(); 
+      
+        if (!fallingObject.isActive)
+        {
+            fallingObject.Stop();
+            Console.SetCursorPosition(0, Console.WindowHeight);
+            Console.ReadKey(); 
+        }
+    }
+}
 
 //Объектно ориентированное 
 //программирование на C# 
@@ -199,71 +254,71 @@ class FallingObject
 //Запустите оба потока и следите за изменениями счетчика.
 
 
-class Counter
-{
-    private int _count;
-    private readonly object _lock = new object();
+//class Counter
+//{
+//    private int _count;
+//    private readonly object _lock = new object();
 
-    public void Increment()
-    {
-        lock (_lock)
-        {
-            _count++;
-            Console.WriteLine($"Увеличение: {_count}");
-        }
-    }
+//    public void Increment()
+//    {
+//        lock (_lock)
+//        {
+//            _count++;
+//            Console.WriteLine($"Увеличение: {_count}");
+//        }
+//    }
 
-    public void Decrement()
-    {
-        lock (_lock)
-        {
-            _count--;
-            Console.WriteLine($"Уменьшение: {_count}");
-        }
-    }
+//    public void Decrement()
+//    {
+//        lock (_lock)
+//        {
+//            _count--;
+//            Console.WriteLine($"Уменьшение: {_count}");
+//        }
+//    }
 
-    public int GetValue()
-    {
-        lock (_lock)
-        {
-            return _count;
-        }
-    }
-}
+//    public int GetValue()
+//    {
+//        lock (_lock)
+//        {
+//            return _count;
+//        }
+//    }
+//}
 
-class Program
-{
-    static void Main(string[] args)
-    {
-        Counter counter = new Counter();
+//class Program
+//{
+//    static void Main(string[] args)
+//    {
+//        Counter counter = new Counter();
 
-        Thread incrementThread = new Thread(() =>
-        {
-            for (int i = 0; i < 10; i++)
-            {
-                counter.Increment();
-                Thread.Sleep(100);
-            }
-        });
+//        Thread incrementThread = new Thread(() =>
+//        {
+//            for (int i = 0; i < 10; i++)
+//            {
+//                counter.Increment();
+//                Thread.Sleep(100);
+//            }
+//        });
 
-        Thread decrementThread = new Thread(() =>
-        {
-            for (int i = 0; i < 10; i++)
-            {
-                counter.Decrement();
-                Thread.Sleep(150);
-            }
-        });
+//        Thread decrementThread = new Thread(() =>
+//        {
+//            for (int i = 0; i < 10; i++)
+//            {
+//                counter.Decrement();
+//                Thread.Sleep(150);
+//            }
+//        });
 
-        incrementThread.Start();
-        decrementThread.Start();
+//        incrementThread.Start();
+//        decrementThread.Start();
 
-        incrementThread.Join();
-        decrementThread.Join();
+//        incrementThread.Join();
+//        decrementThread.Join();
 
-        Console.WriteLine($"Конечное значение счетчика: {counter.GetValue()}");
-    }
-}
+//        Console.WriteLine($"Конечное значение счетчика: {counter.GetValue()}");
+//    }
+//}
 
 
 
