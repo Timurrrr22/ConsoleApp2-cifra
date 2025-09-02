@@ -130,8 +130,11 @@ class FallingObject
     private int positionX; 
     private int positionY; 
     private Thread thread;
+    private Thread thread2;
+    private Thread thread3;
     private Thread inputThread; 
     public bool isActive;
+    public Random randomm;
 
     public FallingObject(string symbol)
     {
@@ -146,8 +149,26 @@ class FallingObject
     public void Start()
     {
         inputThread.Start(); 
-        thread.Start(); 
+        thread.Start();  
     }
+
+    //public void FallForOtherSnowflakes()
+    //{
+    //    while (isActive)
+    //    {
+    //        Console.SetCursorPosition(random.Next(10, 50), positionY);
+    //        Console.Write(symbol);
+    //        Thread.Sleep(1000);
+    //        Console.SetCursorPosition(random.Next(10, 50), positionY);
+    //        Console.Write(" ");
+    //        positionY++;
+
+    //        if (positionY >= Console.WindowHeight)
+    //        {
+    //            isActive = false;
+    //        }
+    //    }
+    //}
 
     public void Fall()
     {
@@ -217,13 +238,45 @@ class Program
     static void Main(string[] args)
     {
         var fallingObject = new FallingObject("*"); 
-        fallingObject.Start(); 
-      
+        fallingObject.Start();
+        Console.CursorVisible = false;
         if (!fallingObject.isActive)
         {
             fallingObject.Stop();
             Console.SetCursorPosition(0, Console.WindowHeight);
             Console.ReadKey(); 
+        }
+
+    Random random = new Random();
+    int positionSnowflakes = 0;
+    void FallForOtherSnowflakes()
+        {
+            while (fallingObject.isActive)
+            {
+                Console.SetCursorPosition(random.Next(10, 50), positionSnowflakes);
+                Console.Write("*");
+                Thread.Sleep(1000);
+                Console.SetCursorPosition(random.Next(10, 50), positionSnowflakes);
+                //Console.Write(" ");
+                Console.Clear();
+                positionSnowflakes++;
+
+                if (positionSnowflakes >= Console.WindowHeight)
+                {
+                    fallingObject.isActive = false;
+                }
+            }
+        }
+    List<Thread> threads = new List<Thread>();
+        for (int i = 0;  i < 6; i++)
+        {
+            threads.Add(new Thread(() => FallForOtherSnowflakes()));
+        }
+
+        foreach (var thread in threads)
+        {
+            thread.Start();
+            thread.Join();
         }
     }
 }
