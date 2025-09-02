@@ -196,6 +196,73 @@ class FallingObject
 //Запустите оба потока и следите за изменениями счетчика.
 
 
+class Counter
+{
+    private int _count;
+    private readonly object _lock = new object();
+
+    public void Increment()
+    {
+        lock (_lock)
+        {
+            _count++;
+            Console.WriteLine($"Увеличение: {_count}");
+        }
+    }
+
+    public void Decrement()
+    {
+        lock (_lock)
+        {
+            _count--;
+            Console.WriteLine($"Уменьшение: {_count}");
+        }
+    }
+
+    public int GetValue()
+    {
+        lock (_lock)
+        {
+            return _count;
+        }
+    }
+}
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Counter counter = new Counter();
+
+        Thread incrementThread = new Thread(() =>
+        {
+            for (int i = 0; i < 10; i++)
+            {
+                counter.Increment();
+                Thread.Sleep(100);
+            }
+        });
+
+        Thread decrementThread = new Thread(() =>
+        {
+            for (int i = 0; i < 10; i++)
+            {
+                counter.Decrement();
+                Thread.Sleep(150);
+            }
+        });
+
+        incrementThread.Start();
+        decrementThread.Start();
+
+        incrementThread.Join();
+        decrementThread.Join();
+
+        Console.WriteLine($"Конечное значение счетчика: {counter.GetValue()}");
+    }
+}
+
+
 //Объектно ориентированное 
 //программирование на C# 
 //Тема 26. Домашнее задание. 
