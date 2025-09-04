@@ -124,162 +124,162 @@ using System.Threading;
 
 
 
-class FallingObject
-{
-    private string symbol;
-    private int positionX; 
-    private int positionY; 
-    private Thread thread;
-    private Thread thread2;
-    private Thread thread3;
-    private Thread inputThread; 
-    public bool isActive;
-    public Random randomm;
+//class FallingObject
+//{
+//    private string symbol;
+//    private int positionX; 
+//    private int positionY; 
+//    private Thread thread;
+//    private Thread thread2;
+//    private Thread thread3;
+//    private Thread inputThread; 
+//    public bool isActive;
+//    public Random randomm;
 
-    public FallingObject(string symbol)
-    {
-        this.symbol = symbol;
-        this.positionX = 5; 
-        this.positionY = 0; 
-        this.isActive = true;
-        thread = new Thread(Fall);
-        inputThread = new Thread(HandleInput);
-    }
+//    public FallingObject(string symbol)
+//    {
+//        this.symbol = symbol;
+//        this.positionX = 5; 
+//        this.positionY = 0; 
+//        this.isActive = true;
+//        thread = new Thread(Fall);
+//        inputThread = new Thread(HandleInput);
+//    }
 
-    public void Start()
-    {
-        inputThread.Start(); 
-        thread.Start();  
-    }
+//    public void Start()
+//    {
+//        inputThread.Start(); 
+//        thread.Start();  
+//    }
 
-    //public void FallForOtherSnowflakes()
-    //{
-    //    while (isActive)
-    //    {
-    //        Console.SetCursorPosition(random.Next(10, 50), positionY);
-    //        Console.Write(symbol);
-    //        Thread.Sleep(1000);
-    //        Console.SetCursorPosition(random.Next(10, 50), positionY);
-    //        Console.Write(" ");
-    //        positionY++;
+//public void FallForOtherSnowflakes()
+//{
+//    while (isActive)
+//    {
+//        Console.SetCursorPosition(random.Next(10, 50), positionY);
+//        Console.Write(symbol);
+//        Thread.Sleep(1000);
+//        Console.SetCursorPosition(random.Next(10, 50), positionY);
+//        Console.Write(" ");
+//        positionY++;
 
-    //        if (positionY >= Console.WindowHeight)
-    //        {
-    //            isActive = false;
-    //        }
-    //    }
-    //}
+//        if (positionY >= Console.WindowHeight)
+//        {
+//            isActive = false;
+//        }
+//    }
+//}
 
-    public void Fall()
-    {
-        while (isActive)
-        {
-            Console.SetCursorPosition(positionX, positionY);
-            Console.Write(symbol);
-            Thread.Sleep(1000);
-            Console.SetCursorPosition(positionX, positionY);
-            Console.Write(" ");
-            positionY++;
+//    public void Fall()
+//    {
+//        while (isActive)
+//        {
+//            Console.SetCursorPosition(positionX, positionY);
+//            Console.Write(symbol);
+//            Thread.Sleep(1000);
+//            Console.SetCursorPosition(positionX, positionY);
+//            Console.Write(" ");
+//            positionY++;
 
-            if (positionY >= Console.WindowHeight)
-            {
-                isActive = false;
-            }
-        }
-    }
+//            if (positionY >= Console.WindowHeight)
+//            {
+//                isActive = false;
+//            }
+//        }
+//    }
 
-    private void HandleInput()
-    {
-        while (isActive)
-        {
-            ConsoleKey key = Console.ReadKey(true).Key;
-            switch (key)
-            {
-                case ConsoleKey.A:
-                    MoveLeft();
-                    break;
-                case ConsoleKey.D:
-                    MoveRight();
-                    break;
-            }
-        }
-    }
+//    private void HandleInput()
+//    {
+//        while (isActive)
+//        {
+//            ConsoleKey key = Console.ReadKey(true).Key;
+//            switch (key)
+//            {
+//                case ConsoleKey.A:
+//                    MoveLeft();
+//                    break;
+//                case ConsoleKey.D:
+//                    MoveRight();
+//                    break;
+//            }
+//        }
+//    }
 
-    private void MoveLeft()
-    {
-        if (positionX > 0)
-        {
-            Console.SetCursorPosition(positionX, positionY);
-            Console.Write(" "); 
-            positionX--; 
-        }
-    }
+//    private void MoveLeft()
+//    {
+//        if (positionX > 0)
+//        {
+//            Console.SetCursorPosition(positionX, positionY);
+//            Console.Write(" "); 
+//            positionX--; 
+//        }
+//    }
 
-    private void MoveRight()
-    {
-        if (positionX < Console.WindowWidth ) 
-        {
-            Console.SetCursorPosition(positionX, positionY);
-            Console.Write(" "); 
-            positionX++; 
-        }
-    }
+//    private void MoveRight()
+//    {
+//        if (positionX < Console.WindowWidth ) 
+//        {
+//            Console.SetCursorPosition(positionX, positionY);
+//            Console.Write(" "); 
+//            positionX++; 
+//        }
+//    }
 
-    public void Stop()
-    {
-        isActive = false;
-        inputThread.Join(); 
-        thread.Join(); 
-    }
-}
+//    public void Stop()
+//    {
+//        isActive = false;
+//        inputThread.Join(); 
+//        thread.Join(); 
+//    }
+//}
 
-class Program
-{
-    static void Main(string[] args)
-    {
-        var fallingObject = new FallingObject("*"); 
-        fallingObject.Start();
-        Console.CursorVisible = false;
-        if (!fallingObject.isActive)
-        {
-            fallingObject.Stop();
-            Console.SetCursorPosition(0, Console.WindowHeight);
-            Console.ReadKey(); 
-        }
+//class Program
+//{
+//    static void Main(string[] args)
+//    {
+//        var fallingObject = new FallingObject("*"); 
+//        fallingObject.Start();
+//        Console.CursorVisible = false;
+//        if (!fallingObject.isActive)
+//        {
+//            fallingObject.Stop();
+//            Console.SetCursorPosition(0, Console.WindowHeight);
+//            Console.ReadKey(); 
+//        }
 
-    Random random = new Random();
-    int positionSnowflakes = 0;
-    void FallForOtherSnowflakes()
-        {
-            while (fallingObject.isActive)
-            {
-                Console.SetCursorPosition(random.Next(10, 50), positionSnowflakes);
-                Console.Write("*");
-                Thread.Sleep(1000);
-                Console.SetCursorPosition(random.Next(10, 50), positionSnowflakes);
-                //Console.Write(" ");
-                Console.Clear();
-                positionSnowflakes++;
+//    Random random = new Random();
+//    int positionSnowflakes = 0;
+//    void FallForOtherSnowflakes()
+//        {
+//            while (fallingObject.isActive)
+//            {
+//                Console.SetCursorPosition(random.Next(10, 50), positionSnowflakes);
+//                Console.Write("*");
+//                Thread.Sleep(1000);
+//                Console.SetCursorPosition(random.Next(10, 50), positionSnowflakes);
+//                //Console.Write(" ");
+//                Console.Clear();
+//                positionSnowflakes++;
 
-                if (positionSnowflakes >= Console.WindowHeight)
-                {
-                    fallingObject.isActive = false;
-                }
-            }
-        }
-    List<Thread> threads = new List<Thread>();
-        for (int i = 0;  i < 6; i++)
-        {
-            threads.Add(new Thread(() => FallForOtherSnowflakes()));
-        }
+//                if (positionSnowflakes >= Console.WindowHeight)
+//                {
+//                    fallingObject.isActive = false;
+//                }
+//            }
+//        }
+//    List<Thread> threads = new List<Thread>();
+//        for (int i = 0;  i < 6; i++)
+//        {
+//            threads.Add(new Thread(() => FallForOtherSnowflakes()));
+//        }
 
-        foreach (var thread in threads)
-        {
-            thread.Start();
-            thread.Join();
-        }
-    }
-}
+//        foreach (var thread in threads)
+//        {
+//            thread.Start();
+//            thread.Join();
+//        }
+//    }
+//}
 
 //Объектно ориентированное 
 //программирование на C# 
@@ -375,3 +375,54 @@ class Program
 
 
 
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        const int numThreads = 5;
+        Thread[] threads = new Thread[numThreads];
+        FileWriter fileWriter = new FileWriter("Z:\\Gaziev\\table.txt");
+
+        for (int i = 0; i < numThreads; i++)
+        {
+            threads[i] = new Thread(() => fileWriter.WriteToFile($"Запись от потока {i + 1}"));
+            threads[i].Start();
+        }
+
+        foreach (var thread in threads)
+        {
+            thread.Join();
+        }
+
+        Console.WriteLine("Все записи завершены.");
+    }
+}
+
+class FileWriter
+{
+    private readonly string _filePath;
+    private readonly Mutex _mutex;
+
+    public FileWriter(string filePath)
+    {
+        _filePath = filePath;
+        _mutex = new Mutex();
+    }
+
+    public void WriteToFile(string message)
+    {
+        _mutex.WaitOne();
+        try
+        {
+            using (StreamWriter writer = new StreamWriter(_filePath, true))
+            {
+                writer.WriteLine($"                        {DateTime.Now}: {message}");
+            }
+        }
+        finally
+        {
+            _mutex.ReleaseMutex();
+        }
+    }
+}
