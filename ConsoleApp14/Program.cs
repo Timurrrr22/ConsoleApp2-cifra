@@ -538,3 +538,24 @@ namespace MutexChangeFile
 //цикла на 250мс 
 //Результат выводить во вторичном потоке 
 //В главном потоке, в цикле выводить секунды с задержкой от 1 до 10.
+
+
+public abstract class Animal
+{
+    public string Class;
+    public string Subclass;
+    public string Kingdom;
+    public string Type;
+    public string HabitatArea;
+    public DateTime OpeningDate;
+
+    public Animal(string @class, string subclass, string kingdom, string type, string habitatArea, DateTime openingDate)
+    {
+        Class = @class;
+        Subclass = subclass;
+        Kingdom = kingdom;
+        Type = type;
+        HabitatArea = habitatArea;
+        OpeningDate = openingDate;
+    }
+}

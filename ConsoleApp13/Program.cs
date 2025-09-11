@@ -1,143 +1,136 @@
 ﻿using System;
 using System.Collections.Generic;
+using OfficeOpenXml;
 
-public class DetectiveGame
+//string filePath =
+//"Z:\\Gaziev\\excelBook.xlsx";
+
+////ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
+//ExcelPackage.License.SetNonCommercialPersonal("heio");
+//ExcelPackage newBook = new ExcelPackage(filePath);
+//var list1 = newBook.Workbook.Worksheets.Add("Лист1");
+//var albibek = newBook.Workbook.Worksheets.Add("albibek");
+
+//if (list1 != null)
+//{
+//    newBook.Workbook.Worksheets.Delete(list1);
+//    newBook.Save();
+//}
+
+
+//var fileInfo = new FileInfo(filePath);
+//newBook.SaveAs(fileInfo);
+
+
+//namespace EpplusApp
+//{
+//    using OfficeOpenXml;
+//    using System.IO;
+
+//    internal class Program
+//    {
+//        static void Main(string[] args)
+//        {
+//            ExcelWorksheet currentWorkSheep;
+//            var listsNames = new List<string>() { "Лист1", "фдишиул", "Лист3", "Лист4", "Лист5" };
+//            var list = new List<ExcelWorksheet>();
+//            ExcelPackage.License.SetNonCommercialPersonal("Daniil");
+//            string filePath = "Z:\\Gaziev\\excelBook.xlsx";
+//            ExcelPackage newBook = new ExcelPackage(filePath);
+//            foreach (var listName in listsNames)
+//            {
+//                if (newBook.Workbook.Worksheets[listName] == null)
+//                    list.Add(newBook.Workbook.Worksheets.Add(listName));
+//                else
+//                    list.Add(newBook.Workbook.Worksheets[listName]);
+//            }
+
+//            //if (lists[4] != null)
+//            //{
+//            //    newBook.Workbook.Worksheets.Delete(lists[4]);
+//            //    newBook.Save();
+//            //}
+
+//            currentWorkSheep = list[1];
+//            currentWorkSheep.Cells["A1"].Value = $"Hello, world из листа фдишиул";
+//            var fileInfo = new FileInfo(filePath);
+//            newBook.SaveAs(fileInfo);
+//        }
+//    }
+//}
+
+
+public enum ProductType
 {
-    // Размер особняка
-    const int MansionSize = 5;
+    WallpaperVinyl,
+    WallpaperFlizelin,
+    WallpaperPaper,
+    WallpaperLiquid,
+    Plaster,
+    Putty,
+    Drill,
+    Hammer,
+    Juice,
+    Chips
+}
 
-    // Типы комнат
-    const int Empty = 0;
-    const int Clue = 1;
-    const int Locked = 2;
-    const int Puzzle = 3;
-    const int Final = 4;
+public class Product
+{
+    public string Name { get; set; }
+    public ProductType Type { get; set; }
+    public decimal Price { get; set; }
+    public int Quantity { get; set; }
 
-
-    static int[,] mansion = new int[MansionSize, MansionSize];
-    static List<string> clues = new List<string>();
-    static bool hasKey = false;
-    static int playerX, playerY;
-
-
-    // Инициализация особняка (пример)
-    static void InitializeMansion()
+    public Product(string name, ProductType type, decimal price, int quantity)
     {
-        // 0 - пусто, 1 - улика, 2 - заперто, 3 - загадка, 4 - финал
-        mansion = new int[,] {
-            {Empty, Clue, Empty, Empty, Empty},
-            {Empty, Locked, Empty, Puzzle, Empty},
-            {Empty, Empty, Empty, Empty, Empty},
-            {Clue, Empty, Empty, Empty, Final},
-            {Empty, Empty, Empty, Clue, Empty}
+        Name = name;
+        Type = type;
+        Price = price;
+        Quantity = quantity;
+    }
+}
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Product[] products = new Product[]
+        {
+                new Product("Обои виниловые", ProductType.WallpaperVinyl, 1200.50m, 50),
+                new Product("Обои флизелиновые", ProductType.WallpaperFlizelin, 1500.75m, 30),
+                new Product("Обои бумажные", ProductType.WallpaperPaper, 800.00m, 100),
+                new Product("Обои жидкие", ProductType.WallpaperLiquid, 2000.00m, 20),
+                new Product("Штукатурка “Соседи не услышат”", ProductType.Plaster, 2500.00m, 15),
+                new Product("Шпатлевка “Сладко да гладко”", ProductType.Putty, 900.00m, 25),
+                new Product("Дрель “Буровик 3000”", ProductType.Drill, 5000.00m, 10),
+                new Product("Молоток “Тор”", ProductType.Hammer, 300.00m, 40),
+                new Product("Сок апельсиновый", ProductType.Juice, 150.00m, 200),
+                new Product("Чипсы со вкусом зелени", ProductType.Chips, 70.00m, 150)
         };
-
-        playerX = 0;
-        playerY = 0;
-    }
-
-
-    // Отображение особняка
-    static void DisplayMansion()
-    {
-        for (int y = 0; y < MansionSize; y++)
+        string filePath = "Z:\\Gaziev\\excelBook.xlsx";
+        ExcelPackage.License.SetNonCommercialPersonal("Daniil");
+        using (ExcelPackage excelPackage = new ExcelPackage(filePath))
         {
-            for (int x = 0; x < MansionSize; x++)
+            var worksheet = excelPackage.Workbook.Worksheets.Add("Складской учет");
+
+            worksheet.Cells[1, 1].Value = "Наименование";
+            worksheet.Cells[1, 2].Value = "Тип товара";
+            worksheet.Cells[1, 3].Value = "Стоимость";
+            worksheet.Cells[1, 4].Value = "Количество";
+
+            for (int i = 0; i < products.Length; i++)
             {
-                if (x == playerX && y == playerY)
-                    Console.Write("P "); // Игрок
-                else if (mansion[y, x] == Locked)
-                    Console.Write("L "); // Заперто
-                else
-                    Console.Write(". "); // Другие комнаты
+                worksheet.Cells[i + 2, 1].Value = products[i].Name;
+                worksheet.Cells[i + 2, 2].Value = products[i].Type.ToString();
+                worksheet.Cells[i + 2, 3].Value = products[i].Price;
+                worksheet.Cells[i + 2, 4].Value = products[i].Quantity;
             }
-            Console.WriteLine();
-        }
-    }
+            excelPackage.Save();
 
-
-    // Перемещение игрока
-    static void MovePlayer(char move)
-    {
-        int nextX = playerX, nextY = playerY;
-
-        switch (move)
-        {
-            case 'w': nextY--; break;
-            case 's': nextY++; break;
-            case 'a': nextX--; break;
-            case 'd': nextX++; break;
+            FileInfo excelFile = new FileInfo(filePath);
+            excelPackage.SaveAs(excelFile);
         }
 
-        if (nextX >= 0 && nextX < MansionSize && nextY >= 0 && nextY < MansionSize)
-        {
-            if (mansion[nextY, nextX] == Locked && !hasKey)
-            {
-                Console.WriteLine("Дверь заперта! Нужен ключ.");
-            }
-            else
-            {
-                playerX = nextX;
-                playerY = nextY;
-            }
-        }
-        else
-        {
-            Console.WriteLine("Нельзя выйти за пределы особняка!");
-        }
-    }
-
-
-    // Взаимодействие с комнатой
-    static void InteractWithRoom()
-    {
-        switch (mansion[playerY, playerX])
-        {
-            case Clue:
-                Console.WriteLine("Вы нашли улику! Добавить в инвентарь? (y/n)");
-                if (Console.ReadKey().KeyChar == 'y')
-                {
-                    clues.Add("Улика " + clues.Count); // Замените на реальные улики
-                    Console.WriteLine("\nУлика добавлена!");
-                }
-                mansion[playerY, playerX] = Empty; // Улика забрана
-                break;
-            case Puzzle:
-                Console.WriteLine("Вы столкнулись с загадкой! (Пока что пропускаем)");
-                hasKey = true; // Замените на реальную загадку
-                mansion[playerY, playerX] = Empty;
-                break;
-            case Final:
-                if (clues.Count >= 3)
-                {
-                    Console.WriteLine("Вы собрали достаточно улик! Тайна раскрыта!");
-                }
-                else
-                {
-                    Console.WriteLine("Недостаточно улик! Продолжайте поиски.");
-                }
-                break;
-        }
-    }
-
-
-    public static void Main(string[] args)
-    {
-        InitializeMansion();
-
-        while (true)
-        {
-            DisplayMansion();
-            Console.WriteLine("Куда идти? (w/a/s/d)");
-
-            char move = Console.ReadKey().KeyChar;
-            Console.WriteLine();
-
-            MovePlayer(move);
-            InteractWithRoom();
-
-            Console.WriteLine("Улики: " + string.Join(", ", clues));
-            Console.WriteLine();
-        }
+        Console.WriteLine("Файл успешно создан!");
     }
 }
