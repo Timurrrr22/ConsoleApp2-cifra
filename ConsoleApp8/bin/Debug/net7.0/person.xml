@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SchoolClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <students>
+    <Student>
+      <Name>Сергей</Name>
+      <Surname>Сергеев</Surname>
+      <Age>25</Age>
+      <Birthday>2025-09-23T00:00:00+03:00</Birthday>
+      <ClassName>7А</ClassName>
+      <TeacherName>Анна Николаевна</TeacherName>
+      <Subjects>
+        <string>Русич</string>
+        <string>Матеша</string>
+        <string>Физ-ра</string>
+      </Subjects>
+    </Student>
+    <Student>
+      <Name>Натали</Name>
+      <Surname>Натальева</Surname>
+      <Age>27</Age>
+      <Birthday>2025-09-23T00:00:00+03:00</Birthday>
+      <ClassName>7А</ClassName>
+      <TeacherName>Анна Николаевна</TeacherName>
+      <Subjects>
+        <string>Русич</string>
+        <string>Матеша</string>
+        <string>Физ-ра</string>
+      </Subjects>
+    </Student>
+    <Student>
+      <Name>Тимур</Name>
+      <Surname>Тимуров</Surname>
+      <Age>29</Age>
+      <Birthday>2025-09-23T00:00:00+03:00</Birthday>
+      <ClassName>7А</ClassName>
+      <TeacherName>Анна Николаевна</TeacherName>
+      <Subjects>
+        <string>Русич</string>
+        <string>Матеша</string>
+        <string>Физ-ра</string>
+      </Subjects>
+    </Student>
+  </students>
+  <ClassName>7А</ClassName>
+</SchoolClass>

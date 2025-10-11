@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "H3NR/gj3lNuACI2uKqrA73gql6/Y54XjFKZTfu/5LDZcZWtB9fucfLQChD6kLwv2f/KgO8NPrKvOLVSWnmGaMQ==",
+  "dgSpecHash": "ZB6UsX7UZ4w=",
   "success": true,
   "projectFilePath": "C:\\Users\\Student\\source\\repos\\ConsoleApp2\\ConsoleApp8\\ConsoleApp8.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Student\\.nuget\\packages\\csvhelper\\33.1.0\\csvhelper.33.1.0.nupkg.sha512",
+    "C:\\Users\\Student\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

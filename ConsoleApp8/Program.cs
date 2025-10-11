@@ -1,93 +1,62 @@
-﻿int width = 10;
-int height = 10;
-char[,] map = new char[height, width];
-int playerX = 1;
-int playerY = 1;
-int itemsCount = 0;
-int collectedItems = 0;
-Random random = new Random();
+﻿using System;
+using System.Xml.Serialization;
 
-// Генерация карты
-for (int i = 0; i < height; i++)
+namespace xmlApp
 {
-    for (int j = 0; j < width; j++)
+    [Serializable]
+    public class Student
     {
-        if (i == 0 || i == 9 || j == 0 || j == 9)
+        public Student(string name, string surname, int age, DateTime birthday, string className, string teacherName, List<string> subjects)
         {
-            map[i, j] = '#';
+            Name = name;
+            Surname = surname;
+            Age = age;
+            Birthday = birthday;
+            ClassName = className;
+            TeacherName = teacherName;
+            Subjects = subjects;
         }
-        else
+        public Student()
         {
-            if (random.Next(5) == 0 && (i != playerY || j != playerX))
-            {
-                map[i, j] = 'I';
-                itemsCount++;
-            }
-            else
-            {
-                map[i, j] = '.';
-            }
+
+        }
+        public string Name { get; set; }
+        public string Surname { get; set; }
+        public int Age { get; set; }
+        public DateTime Birthday { get; set; }
+        public string ClassName { get; set; }
+        public string TeacherName { get; set; }
+        public List<string> Subjects { get; set; }
+
+    }
+    [Serializable]
+    public class SchoolClass
+    {
+        public string ClassName { get; set; }
+        public List<Student> students;
+
+        public SchoolClass(string name)
+        {
+            ClassName = name;
+        }
+        public SchoolClass()
+        {
+
         }
     }
-}
-
-
-map[playerY, playerX] = 'P';
-
-while (true)
-{
-    // Отрисовка карты
-    for(int v = 0; v < height; v++)
+    internal class Program
     {
-        for(int p = 0; p < width; p++)
+        static void Main(string[] args)
         {
-            Console.Write(map[v, p]);
+            SchoolClass schoolClass = new SchoolClass("7А");
+            schoolClass.students = new List<Student>() {
+                new Student("Сергей", "Сергеев", 25, DateTime.Today, "7А", "Анна Николаевна", new List<string>(){"Русич", "Матеша", "Физ-ра" }),
+                new Student("Натали", "Натальева", 27, DateTime.Today, "7А", "Анна Николаевна", new List<string>(){"Русич", "Матеша", "Физ-ра" }),
+                new Student("Тимур", "Тимуров", 29, DateTime.Today, "7А", "Анна Николаевна", new List<string>(){"Русич", "Матеша", "Физ-ра" }),
+            };
+            XmlSerializer serializer = new XmlSerializer(typeof(SchoolClass));
+            FileStream stream = new FileStream("person.xml", FileMode.Create);
+            serializer.Serialize(stream, schoolClass);
         }
-        Console.WriteLine();
-    }
-
-    Console.WriteLine($"Собрано предметов: {collectedItems}/{itemsCount}");
-    
-
-    // Ввод направления
-    Console.WriteLine("Введите направление (w, a, s, d):");
-    char direction = Console.ReadKey().KeyChar;
-    Console.WriteLine();
-
-    // Расчет новой позиции 
-    int newX = playerX;
-    int newY = playerY;
-    switch (direction)
-    {
-        case 'w': newY--; break;
-        case 's': newY++; break;
-        case 'a': newX--; break;
-        case 'd': newX++; break;
-        default:
-            Console.WriteLine("Неверное направление. Используйте w, a, s, d.");
-            continue; // Переходим к следующей итерации цикла
-    }
-
-    // Проверка на столкновения и перемещение
-    if (map[newY, newX] != '#')
-    {
-        if (map[newY, newX] == 'I')
-        {
-            collectedItems++;
-        }
-        map[playerY, playerX] = '.';
-        playerX = newX;
-        playerY = newY;
-        map[playerY, playerX] = 'P';
-
-        if (collectedItems == itemsCount)
-        {
-            Console.WriteLine("Игра окончена!");
-            break;
-        }
-    }
-    else
-    {
-        Console.WriteLine("Вы не можете двигаться в этом направлении.");
     }
 }
