@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\Student\\source\\repos\\ConsoleApp2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2A24BAFB-271E-4C8A-AF14-FE819B038EAF}|ConsoleApp6\\ConsoleApp6.csproj|c:\\users\\student\\source\\repos\\consoleapp2\\consoleapp6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A24BAFB-271E-4C8A-AF14-FE819B038EAF}|ConsoleApp6\\ConsoleApp6.csproj|solutionrelative:consoleapp6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46D429C1-306F-4427-AA7F-CC139A738A9F}|ConsoleApp5\\ConsoleApp5.csproj|c:\\users\\student\\source\\repos\\consoleapp2\\consoleapp5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46D429C1-306F-4427-AA7F-CC139A738A9F}|ConsoleApp5\\ConsoleApp5.csproj|solutionrelative:consoleapp5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76F26766-C07A-456C-9F16-BCA5E3E929A2}|ConsoleApp15\\ConsoleApp15.csproj|c:\\users\\student\\source\\repos\\consoleapp2\\consoleapp15\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76F26766-C07A-456C-9F16-BCA5E3E929A2}|ConsoleApp15\\ConsoleApp15.csproj|solutionrelative:consoleapp15\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CE67C7FA-EC3D-435C-A09C-0218F753FE07}|ConsoleApp8\\ConsoleApp8.csproj|c:\\users\\student\\source\\repos\\consoleapp2\\consoleapp8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CE67C7FA-EC3D-435C-A09C-0218F753FE07}|ConsoleApp8\\ConsoleApp8.csproj|solutionrelative:consoleapp8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -37,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3401EC0A-ADF2-4014-83F0-D4F7FD167D36}|ConsoleApp10\\ConsoleApp10.csproj|c:\\users\\student\\source\\repos\\consoleapp2\\consoleapp10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3401EC0A-ADF2-4014-83F0-D4F7FD167D36}|ConsoleApp10\\ConsoleApp10.csproj|solutionrelative:consoleapp10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46D429C1-306F-4427-AA7F-CC139A738A9F}|ConsoleApp5\\ConsoleApp5.csproj|c:\\users\\student\\source\\repos\\consoleapp2\\consoleapp5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46D429C1-306F-4427-AA7F-CC139A738A9F}|ConsoleApp5\\ConsoleApp5.csproj|solutionrelative:consoleapp5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{359E4B36-E997-490F-958D-C95E1126DC1C}|ConsoleApp13\\ConsoleApp13.csproj|c:\\users\\student\\source\\repos\\consoleapp2\\consoleapp13\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -92,10 +100,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FC8BE0C7-2839-4459-B2C7-4DC7748665A4}|ConsoleApp12\\ConsoleApp12.csproj|c:\\users\\student\\source\\repos\\consoleapp2\\consoleapp12\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC8BE0C7-2839-4459-B2C7-4DC7748665A4}|ConsoleApp12\\ConsoleApp12.csproj|solutionrelative:consoleapp12\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76F26766-C07A-456C-9F16-BCA5E3E929A2}|ConsoleApp15\\ConsoleApp15.csproj|c:\\users\\student\\source\\repos\\consoleapp2\\consoleapp15\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76F26766-C07A-456C-9F16-BCA5E3E929A2}|ConsoleApp15\\ConsoleApp15.csproj|solutionrelative:consoleapp15\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|Z:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u0420\u0430\u0431\u043E\u0442\u0430 \u0441 \u0444\u0430\u0439\u043B\u043E\u0432\u043E\u0439 \u0441\u0438\u0441\u0442\u0435\u043C\u043E\u0439\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -231,10 +235,6 @@
       "RelativeMoniker": "D:0:0:{CF4EE671-2ACE-4041-B7B5-AD7255FBF514}|orchestra of Sentiments\\orchestra of Sentiments.csproj|solutionrelative:orchestra of sentiments\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A24BAFB-271E-4C8A-AF14-FE819B038EAF}|ConsoleApp6\\ConsoleApp6.csproj|c:\\users\\student\\source\\repos\\consoleapp2\\consoleapp6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A24BAFB-271E-4C8A-AF14-FE819B038EAF}|ConsoleApp6\\ConsoleApp6.csproj|solutionrelative:consoleapp6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|Y:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u0420\u0430\u0431\u043E\u0442\u0430 \u0441 \u0444\u0430\u0439\u043B\u043E\u0432\u043E\u0439 \u0441\u0438\u0441\u0442\u0435\u043C\u043E\u0439\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -268,11 +268,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 69,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\ConsoleApp2\\ConsoleApp1\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
@@ -295,23 +295,22 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "ConsoleApp8",
               "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\ConsoleApp2\\ConsoleApp8\\ConsoleApp8.csproj",
               "RelativeDocumentMoniker": "ConsoleApp8\\ConsoleApp8.csproj",
               "ToolTip": "C:\\Users\\Student\\source\\repos\\ConsoleApp2\\ConsoleApp8\\ConsoleApp8.csproj",
               "RelativeToolTip": "ConsoleApp8\\ConsoleApp8.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-23T18:59:18.698Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-23T18:59:18.698Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "ConsoleApp8.csproj",
               "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\ConsoleApp2\\ConsoleApp8\\ConsoleApp8.csproj",
               "RelativeDocumentMoniker": "ConsoleApp8\\ConsoleApp8.csproj",
@@ -319,12 +318,11 @@
               "RelativeToolTip": "ConsoleApp8\\ConsoleApp8.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-23T16:24:23.503Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-23T16:24:23.503Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\ConsoleApp2\\ConsoleApp8\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp8\\Program.cs",
@@ -337,7 +335,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\ConsoleApp2\\ConsoleApp13\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp13\\Program.cs",
@@ -349,7 +347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "ConsoleApp13.csproj",
               "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\ConsoleApp2\\ConsoleApp13\\ConsoleApp13.csproj",
               "RelativeDocumentMoniker": "ConsoleApp13\\ConsoleApp13.csproj",
@@ -361,7 +359,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "readme.txt",
               "DocumentMoniker": "C:\\Users\\Student\\.nuget\\packages\\epplus\\8.1.1\\readme.txt",
               "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\epplus\\8.1.1\\readme.txt",
@@ -373,7 +371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\ConsoleApp2\\ConsoleApp14\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp14\\Program.cs",
@@ -385,7 +383,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\ConsoleApp2\\ConsoleApp16--json\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp16--json\\Program.cs",
@@ -393,24 +391,24 @@
               "RelativeToolTip": "ConsoleApp16--json\\Program.cs",
               "ViewState": "AgIAADsAAAAAAAAAAAAAAEoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-23T16:48:49.432Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-23T16:48:49.432Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\ConsoleApp2\\ConsoleApp15\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp15\\Program.cs",
               "ToolTip": "C:\\Users\\Student\\source\\repos\\ConsoleApp2\\ConsoleApp15\\Program.cs",
               "RelativeToolTip": "ConsoleApp15\\Program.cs",
-              "ViewState": "AgIAAOECAAAAAAAAAABBwP8CAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAOMCAAAAAAAAAAAAAP8CAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T18:53:34.238Z"
+              "WhenOpened": "2025-07-29T18:53:34.238Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "Program.cs",
               "DocumentMoniker": "Z:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u0420\u0430\u0431\u043E\u0442\u0430 \u0441 \u0444\u0430\u0439\u043B\u043E\u0432\u043E\u0439 \u0441\u0438\u0441\u0442\u0435\u043C\u043E\u0439\\Program.cs",
               "ToolTip": "Z:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u0420\u0430\u0431\u043E\u0442\u0430 \u0441 \u0444\u0430\u0439\u043B\u043E\u0432\u043E\u0439 \u0441\u0438\u0441\u0442\u0435\u043C\u043E\u0439\\Program.cs",
@@ -420,7 +418,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\ConsoleApp2\\tournament\\Program.cs",
               "RelativeDocumentMoniker": "tournament\\Program.cs",
@@ -428,12 +426,11 @@
               "RelativeToolTip": "tournament\\Program.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T16:37:20.79Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-04T16:37:20.79Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "Program.cs",
               "DocumentMoniker": "Z:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u0417\u0430\u0434\u0430\u043D\u0438\u044F\\\u0421\u0435\u0433\u043E\u0434\u043D\u044F\\Program.cs",
               "ToolTip": "Z:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u0417\u0430\u0434\u0430\u043D\u0438\u044F\\\u0421\u0435\u0433\u043E\u0434\u043D\u044F\\Program.cs",
@@ -443,7 +440,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "FileName.cs",
               "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\ConsoleApp2\\ConsoleApp2\\FileName.cs",
               "RelativeDocumentMoniker": "ConsoleApp2\\FileName.cs",
@@ -455,7 +452,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\ConsoleApp2\\ConsoleApp12\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp12\\Program.cs",
@@ -467,7 +464,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "ConsoleApp15.csproj",
               "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\ConsoleApp2\\ConsoleApp15\\ConsoleApp15.csproj",
               "RelativeDocumentMoniker": "ConsoleApp15\\ConsoleApp15.csproj",
@@ -479,7 +476,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "ShelterExtensions.cs",
               "DocumentMoniker": "Z:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u041C\u0435\u0442\u043E\u0434\u044B \u0440\u0430\u0441\u0448\u0438\u0440\u0435\u043D\u0438\u044F. \u0421\u043E\u0431\u044B\u0442\u0438\u044F\\ShelterExtensions.cs",
               "ToolTip": "Z:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u041C\u0435\u0442\u043E\u0434\u044B \u0440\u0430\u0441\u0448\u0438\u0440\u0435\u043D\u0438\u044F. \u0421\u043E\u0431\u044B\u0442\u0438\u044F\\ShelterExtensions.cs",
@@ -489,7 +486,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "ShelterLogger.cs",
               "DocumentMoniker": "Z:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u041C\u0435\u0442\u043E\u0434\u044B \u0440\u0430\u0441\u0448\u0438\u0440\u0435\u043D\u0438\u044F. \u0421\u043E\u0431\u044B\u0442\u0438\u044F\\ShelterLogger.cs",
               "ToolTip": "Z:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u041C\u0435\u0442\u043E\u0434\u044B \u0440\u0430\u0441\u0448\u0438\u0440\u0435\u043D\u0438\u044F. \u0421\u043E\u0431\u044B\u0442\u0438\u044F\\ShelterLogger.cs",
@@ -499,7 +496,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "TextReaderExtensions.cs",
               "DocumentMoniker": "Z:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u041C\u0435\u0442\u043E\u0434\u044B \u0440\u0430\u0441\u0448\u0438\u0440\u0435\u043D\u0438\u044F. \u0421\u043E\u0431\u044B\u0442\u0438\u044F\\TextReaderExtensions.cs",
               "ToolTip": "Z:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u041C\u0435\u0442\u043E\u0434\u044B \u0440\u0430\u0441\u0448\u0438\u0440\u0435\u043D\u0438\u044F. \u0421\u043E\u0431\u044B\u0442\u0438\u044F\\TextReaderExtensions.cs",
@@ -509,7 +506,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "Shelter.cs",
               "DocumentMoniker": "Z:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u041C\u0435\u0442\u043E\u0434\u044B \u0440\u0430\u0441\u0448\u0438\u0440\u0435\u043D\u0438\u044F. \u0421\u043E\u0431\u044B\u0442\u0438\u044F\\Shelter.cs",
               "ToolTip": "Z:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u041C\u0435\u0442\u043E\u0434\u044B \u0440\u0430\u0441\u0448\u0438\u0440\u0435\u043D\u0438\u044F. \u0421\u043E\u0431\u044B\u0442\u0438\u044F\\Shelter.cs",
@@ -519,7 +516,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "Animal.cs",
               "DocumentMoniker": "Z:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u041C\u0435\u0442\u043E\u0434\u044B \u0440\u0430\u0441\u0448\u0438\u0440\u0435\u043D\u0438\u044F. \u0421\u043E\u0431\u044B\u0442\u0438\u044F\\Animal.cs",
               "ToolTip": "Z:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u041C\u0435\u0442\u043E\u0434\u044B \u0440\u0430\u0441\u0448\u0438\u0440\u0435\u043D\u0438\u044F. \u0421\u043E\u0431\u044B\u0442\u0438\u044F\\Animal.cs",
@@ -529,7 +526,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "Program.cs",
               "DocumentMoniker": "Z:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u041C\u0435\u0442\u043E\u0434\u044B \u0440\u0430\u0441\u0448\u0438\u0440\u0435\u043D\u0438\u044F. \u0421\u043E\u0431\u044B\u0442\u0438\u044F\\Program.cs",
               "ToolTip": "Z:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u041C\u0435\u0442\u043E\u0434\u044B \u0440\u0430\u0441\u0448\u0438\u0440\u0435\u043D\u0438\u044F. \u0421\u043E\u0431\u044B\u0442\u0438\u044F\\Program.cs",
@@ -539,7 +536,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "Program.cs",
               "DocumentMoniker": "Z:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u0418\u043D\u0434\u0435\u043A\u0441\u0430\u0442\u043E\u0440\u044B\\Program.cs",
               "ToolTip": "Z:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u0418\u043D\u0434\u0435\u043A\u0441\u0430\u0442\u043E\u0440\u044B\\Program.cs",
@@ -549,7 +546,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "Program.cs",
               "DocumentMoniker": "Z:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u0410\u0441\u0438\u043D\u0445\u0440\u043E\u043D\u043D\u043E\u0441\u0442\u044C\\Program.cs",
               "ToolTip": "Z:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u0410\u0441\u0438\u043D\u0445\u0440\u043E\u043D\u043D\u043E\u0441\u0442\u044C\\Program.cs",
@@ -559,7 +556,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "Program.cs",
               "DocumentMoniker": "Z:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u0414\u0435\u043B\u0435\u0433\u0430\u0442\u044B \u0438 \u0421\u043E\u0431\u044B\u0442\u0438\u044F\\\u041F\u0440\u0438\u043C\u0435\u0440 \u0434\u0435\u043B\u0435\u0433\u0430\u0442\u043E\u0432\\Program.cs",
               "ToolTip": "Z:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u0414\u0435\u043B\u0435\u0433\u0430\u0442\u044B \u0438 \u0421\u043E\u0431\u044B\u0442\u0438\u044F\\\u041F\u0440\u0438\u043C\u0435\u0440 \u0434\u0435\u043B\u0435\u0433\u0430\u0442\u043E\u0432\\Program.cs",
@@ -569,7 +566,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "Program.cs",
               "DocumentMoniker": "Z:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u0418\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u044B\\Program.cs",
               "ToolTip": "Z:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u0418\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u044B\\Program.cs",
@@ -579,7 +576,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "Program.cs",
               "DocumentMoniker": "Z:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u0424\u0430\u0431\u0440\u0438\u043A\u0438\\Program.cs",
               "ToolTip": "Z:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u0424\u0430\u0431\u0440\u0438\u043A\u0438\\Program.cs",
@@ -589,7 +586,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\ConsoleApp2\\\u043F\u043E\u0434\u0441\u0442\u0440\u043E\u043A\u0430\\Program.cs",
               "RelativeDocumentMoniker": "\u043F\u043E\u0434\u0441\u0442\u0440\u043E\u043A\u0430\\Program.cs",
@@ -601,7 +598,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "Program.cs",
               "DocumentMoniker": "Y:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u041C\u0430\u0433\u0430\u0437\u0438\u043D\\Program.cs",
               "ToolTip": "Y:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u041C\u0430\u0433\u0430\u0437\u0438\u043D\\Program.cs",
@@ -610,7 +607,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 48,
               "Title": "TextReaderExtensions.cs",
               "DocumentMoniker": "Y:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u041C\u0435\u0442\u043E\u0434\u044B \u0440\u0430\u0441\u0448\u0438\u0440\u0435\u043D\u0438\u044F. \u0421\u043E\u0431\u044B\u0442\u0438\u044F\\TextReaderExtensions.cs",
               "ToolTip": "Y:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u041C\u0435\u0442\u043E\u0434\u044B \u0440\u0430\u0441\u0448\u0438\u0440\u0435\u043D\u0438\u044F. \u0421\u043E\u0431\u044B\u0442\u0438\u044F\\TextReaderExtensions.cs",
@@ -619,7 +616,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "ShelterLogger.cs",
               "DocumentMoniker": "Y:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u041C\u0435\u0442\u043E\u0434\u044B \u0440\u0430\u0441\u0448\u0438\u0440\u0435\u043D\u0438\u044F. \u0421\u043E\u0431\u044B\u0442\u0438\u044F\\ShelterLogger.cs",
               "ToolTip": "Y:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u041C\u0435\u0442\u043E\u0434\u044B \u0440\u0430\u0441\u0448\u0438\u0440\u0435\u043D\u0438\u044F. \u0421\u043E\u0431\u044B\u0442\u0438\u044F\\ShelterLogger.cs",
@@ -628,7 +625,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "ShelterExtensions.cs",
               "DocumentMoniker": "Y:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u041C\u0435\u0442\u043E\u0434\u044B \u0440\u0430\u0441\u0448\u0438\u0440\u0435\u043D\u0438\u044F. \u0421\u043E\u0431\u044B\u0442\u0438\u044F\\ShelterExtensions.cs",
               "ToolTip": "Y:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u041C\u0435\u0442\u043E\u0434\u044B \u0440\u0430\u0441\u0448\u0438\u0440\u0435\u043D\u0438\u044F. \u0421\u043E\u0431\u044B\u0442\u0438\u044F\\ShelterExtensions.cs",
@@ -637,7 +634,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "Shelter.cs",
               "DocumentMoniker": "Y:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u041C\u0435\u0442\u043E\u0434\u044B \u0440\u0430\u0441\u0448\u0438\u0440\u0435\u043D\u0438\u044F. \u0421\u043E\u0431\u044B\u0442\u0438\u044F\\Shelter.cs",
               "ToolTip": "Y:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u041C\u0435\u0442\u043E\u0434\u044B \u0440\u0430\u0441\u0448\u0438\u0440\u0435\u043D\u0438\u044F. \u0421\u043E\u0431\u044B\u0442\u0438\u044F\\Shelter.cs",
@@ -646,7 +643,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 49,
               "Title": "Program.cs",
               "DocumentMoniker": "Y:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u041C\u0435\u0442\u043E\u0434\u044B \u0440\u0430\u0441\u0448\u0438\u0440\u0435\u043D\u0438\u044F. \u0421\u043E\u0431\u044B\u0442\u0438\u044F\\Program.cs",
               "ToolTip": "Y:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u041C\u0435\u0442\u043E\u0434\u044B \u0440\u0430\u0441\u0448\u0438\u0440\u0435\u043D\u0438\u044F. \u0421\u043E\u0431\u044B\u0442\u0438\u044F\\Program.cs",
@@ -655,7 +652,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 50,
               "Title": "Animal.cs",
               "DocumentMoniker": "Y:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u041C\u0435\u0442\u043E\u0434\u044B \u0440\u0430\u0441\u0448\u0438\u0440\u0435\u043D\u0438\u044F. \u0421\u043E\u0431\u044B\u0442\u0438\u044F\\Animal.cs",
               "ToolTip": "Y:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u041C\u0435\u0442\u043E\u0434\u044B \u0440\u0430\u0441\u0448\u0438\u0440\u0435\u043D\u0438\u044F. \u0421\u043E\u0431\u044B\u0442\u0438\u044F\\Animal.cs",
@@ -664,7 +661,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\ConsoleApp2\\oop\\Program.cs",
               "RelativeDocumentMoniker": "oop\\Program.cs",
@@ -676,7 +673,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 51,
               "Title": "Actual.cs",
               "DocumentMoniker": "Y:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u041E\u0431\u043E\u0431\u0449\u0435\u043D\u0438\u044F \u002B \u0441\u043B\u043E\u0432\u0430\u0440\u0438\\ConsoleApp6\\Actual.cs",
               "ToolTip": "Y:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u041E\u0431\u043E\u0431\u0449\u0435\u043D\u0438\u044F \u002B \u0441\u043B\u043E\u0432\u0430\u0440\u0438\\ConsoleApp6\\Actual.cs",
@@ -685,7 +682,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 52,
               "Title": "Program.cs",
               "DocumentMoniker": "Y:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u041E\u0431\u043E\u0431\u0449\u0435\u043D\u0438\u044F \u002B \u0441\u043B\u043E\u0432\u0430\u0440\u0438\\ConsoleApp6\\Program.cs",
               "ToolTip": "Y:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u041E\u0431\u043E\u0431\u0449\u0435\u043D\u0438\u044F \u002B \u0441\u043B\u043E\u0432\u0430\u0440\u0438\\ConsoleApp6\\Program.cs",
@@ -694,7 +691,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 53,
               "Title": "Source.cs",
               "DocumentMoniker": "Y:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u041E\u0431\u043E\u0431\u0449\u0435\u043D\u0438\u044F\\ConsoleApp5\\Source.cs",
               "ToolTip": "Y:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u041E\u0431\u043E\u0431\u0449\u0435\u043D\u0438\u044F\\ConsoleApp5\\Source.cs",
@@ -703,7 +700,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 61,
               "Title": "IAnimal.cs",
               "DocumentMoniker": "Y:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u041E\u0431\u043E\u0431\u0449\u0435\u043D\u0438\u044F\\ConsoleApp5\\IAnimal.cs",
               "ToolTip": "Y:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u041E\u0431\u043E\u0431\u0449\u0435\u043D\u0438\u044F\\ConsoleApp5\\IAnimal.cs",
@@ -712,7 +709,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 60,
               "Title": "IPerson.cs",
               "DocumentMoniker": "Y:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u041E\u0431\u043E\u0431\u0449\u0435\u043D\u0438\u044F\\ConsoleApp5\\IPerson.cs",
               "ToolTip": "Y:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u041E\u0431\u043E\u0431\u0449\u0435\u043D\u0438\u044F\\ConsoleApp5\\IPerson.cs",
@@ -721,7 +718,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 55,
               "Title": "Program.cs",
               "DocumentMoniker": "Y:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u041E\u0431\u043E\u0431\u0449\u0435\u043D\u0438\u044F\\ConsoleApp5\\Program.cs",
               "ToolTip": "Y:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u041E\u0431\u043E\u0431\u0449\u0435\u043D\u0438\u044F\\ConsoleApp5\\Program.cs",
@@ -730,7 +727,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 54,
               "Title": "Program.cs",
               "DocumentMoniker": "Y:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u0414\u0435\u043B\u0435\u0433\u0430\u0442\u044B \u0438 \u0421\u043E\u0431\u044B\u0442\u0438\u044F\\\u0424\u0430\u0431\u0440\u0438\u043A\u0438 \u0444\u0438\u0433\u0443\u0440\\Program.cs",
               "ToolTip": "Y:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u0414\u0435\u043B\u0435\u0433\u0430\u0442\u044B \u0438 \u0421\u043E\u0431\u044B\u0442\u0438\u044F\\\u0424\u0430\u0431\u0440\u0438\u043A\u0438 \u0444\u0438\u0433\u0443\u0440\\Program.cs",
@@ -739,7 +736,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 59,
               "Title": "FileName.cs",
               "DocumentMoniker": "Y:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u0414\u0435\u043B\u0435\u0433\u0430\u0442\u044B \u0438 \u0421\u043E\u0431\u044B\u0442\u0438\u044F\\\u0424\u0430\u0431\u0440\u0438\u043A\u0438 \u0444\u0438\u0433\u0443\u0440\\FileName.cs",
               "ToolTip": "Y:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u0414\u0435\u043B\u0435\u0433\u0430\u0442\u044B \u0438 \u0421\u043E\u0431\u044B\u0442\u0438\u044F\\\u0424\u0430\u0431\u0440\u0438\u043A\u0438 \u0444\u0438\u0433\u0443\u0440\\FileName.cs",
@@ -748,7 +745,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 57,
               "Title": "ShapeNamesCollection.cs",
               "DocumentMoniker": "Y:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u0414\u0435\u043B\u0435\u0433\u0430\u0442\u044B \u0438 \u0421\u043E\u0431\u044B\u0442\u0438\u044F\\\u0424\u0430\u0431\u0440\u0438\u043A\u0438 \u0444\u0438\u0433\u0443\u0440\\ShapeNamesCollection.cs",
               "ToolTip": "Y:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u0414\u0435\u043B\u0435\u0433\u0430\u0442\u044B \u0438 \u0421\u043E\u0431\u044B\u0442\u0438\u044F\\\u0424\u0430\u0431\u0440\u0438\u043A\u0438 \u0444\u0438\u0433\u0443\u0440\\ShapeNamesCollection.cs",
@@ -757,7 +754,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "Shape.cs",
               "DocumentMoniker": "Y:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u0414\u0435\u043B\u0435\u0433\u0430\u0442\u044B \u0438 \u0421\u043E\u0431\u044B\u0442\u0438\u044F\\\u0424\u0430\u0431\u0440\u0438\u043A\u0438 \u0444\u0438\u0433\u0443\u0440\\Shape.cs",
               "ToolTip": "Y:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u0414\u0435\u043B\u0435\u0433\u0430\u0442\u044B \u0438 \u0421\u043E\u0431\u044B\u0442\u0438\u044F\\\u0424\u0430\u0431\u0440\u0438\u043A\u0438 \u0444\u0438\u0433\u0443\u0440\\Shape.cs",
@@ -766,7 +763,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 58,
               "Title": "Factories.cs",
               "DocumentMoniker": "Y:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u0414\u0435\u043B\u0435\u0433\u0430\u0442\u044B \u0438 \u0421\u043E\u0431\u044B\u0442\u0438\u044F\\\u0424\u0430\u0431\u0440\u0438\u043A\u0438 \u0444\u0438\u0433\u0443\u0440\\Factories.cs",
               "ToolTip": "Y:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u0414\u0435\u043B\u0435\u0433\u0430\u0442\u044B \u0438 \u0421\u043E\u0431\u044B\u0442\u0438\u044F\\\u0424\u0430\u0431\u0440\u0438\u043A\u0438 \u0444\u0438\u0433\u0443\u0440\\Factories.cs",
@@ -775,7 +772,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 63,
               "Title": "Program.cs",
               "DocumentMoniker": "Y:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u0414\u0435\u043B\u0435\u0433\u0430\u0442\u044B \u0438 \u0421\u043E\u0431\u044B\u0442\u0438\u044F\\\u041F\u0440\u0438\u043C\u0435\u0440 \u0434\u0435\u043B\u0435\u0433\u0430\u0442\u043E\u0432\\Program.cs",
               "ToolTip": "Y:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u0414\u0435\u043B\u0435\u0433\u0430\u0442\u044B \u0438 \u0421\u043E\u0431\u044B\u0442\u0438\u044F\\\u041F\u0440\u0438\u043C\u0435\u0440 \u0434\u0435\u043B\u0435\u0433\u0430\u0442\u043E\u0432\\Program.cs",
@@ -784,7 +781,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 62,
               "Title": "Program.cs",
               "DocumentMoniker": "Y:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u0424\u0430\u0431\u0440\u0438\u043A\u0438\\Program.cs",
               "ToolTip": "Y:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u0424\u0430\u0431\u0440\u0438\u043A\u0438\\Program.cs",
@@ -793,7 +790,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 65,
               "Title": "Program.cs",
               "DocumentMoniker": "Y:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u0418\u043D\u0434\u0435\u043A\u0441\u0430\u0442\u043E\u0440\u044B\\Program.cs",
               "ToolTip": "Y:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u0418\u043D\u0434\u0435\u043A\u0441\u0430\u0442\u043E\u0440\u044B\\Program.cs",
@@ -802,7 +799,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 66,
               "Title": "Program.cs",
               "DocumentMoniker": "Y:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u0413\u0440\u0430\u0444\u044B\\Program.cs",
               "ToolTip": "Y:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u0413\u0440\u0430\u0444\u044B\\Program.cs",
@@ -811,7 +808,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 56,
               "Title": "Program.cs",
               "DocumentMoniker": "Y:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u041D\u0430\u0441\u043B\u0435\u0434\u043E\u0432\u0430\u043D\u0438\u0435 \u002B \u043F\u043E\u043B\u0438\u043C\u043E\u0440\u0444\u0438\u0437\u043C\\Program.cs",
               "ToolTip": "Y:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u041D\u0430\u0441\u043B\u0435\u0434\u043E\u0432\u0430\u043D\u0438\u0435 \u002B \u043F\u043E\u043B\u0438\u043C\u043E\u0440\u0444\u0438\u0437\u043C\\Program.cs",
@@ -820,7 +817,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "Program.cs",
               "DocumentMoniker": "Y:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u0417\u043E\u043E\u043F\u0430\u0440\u043A \u041E\u041E\u041F\\Program.cs",
               "ToolTip": "Y:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u0417\u043E\u043E\u043F\u0430\u0440\u043A \u041E\u041E\u041F\\Program.cs",
@@ -829,7 +826,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 67,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\ConsoleApp2\\orchestra of Sentiments\\Program.cs",
               "RelativeDocumentMoniker": "orchestra of Sentiments\\Program.cs",
@@ -865,7 +862,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\ConsoleApp2\\translator\\Program.cs",
               "RelativeDocumentMoniker": "translator\\Program.cs",
@@ -889,7 +886,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "Program.cs",
               "DocumentMoniker": "Y:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u041E\u0431\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0438\u0441\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0439\\Program.cs",
               "ToolTip": "Y:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B\\\u041E\u0431\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0438\u0441\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0439\\Program.cs",
@@ -898,7 +895,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\ConsoleApp2\\kviz\\Program.cs",
               "RelativeDocumentMoniker": "kviz\\Program.cs",
@@ -919,7 +916,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\ConsoleApp2\\shalala\\Program.cs",
               "RelativeDocumentMoniker": "shalala\\Program.cs",
@@ -943,7 +940,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\ConsoleApp2\\ConsoleApp10\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp10\\Program.cs",
@@ -955,7 +952,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\ConsoleApp2\\ConsoleApp11\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp11\\Program.cs",
@@ -967,7 +964,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\ConsoleApp2\\ConsoleApp9\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp9\\Program.cs",
@@ -975,12 +972,11 @@
               "RelativeToolTip": "ConsoleApp9\\Program.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAAAFwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T16:08:46.564Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-23T16:08:46.564Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\ConsoleApp2\\ConsoleApp7\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp7\\Program.cs",
@@ -988,24 +984,24 @@
               "RelativeToolTip": "ConsoleApp7\\Program.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T15:51:11.057Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-18T15:51:11.057Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\ConsoleApp2\\ConsoleApp6\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp6\\Program.cs",
               "ToolTip": "C:\\Users\\Student\\source\\repos\\ConsoleApp2\\ConsoleApp6\\Program.cs",
               "RelativeToolTip": "ConsoleApp6\\Program.cs",
-              "ViewState": "AgIAAHEAAAAAAAAAAABBwJMAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADcAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T17:15:15.3Z"
+              "WhenOpened": "2025-01-14T17:15:15.3Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\ConsoleApp2\\ConsoleApp2\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp2\\Program.cs",
@@ -1017,15 +1013,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\ConsoleApp2\\ConsoleApp5\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp5\\Program.cs",
               "ToolTip": "C:\\Users\\Student\\source\\repos\\ConsoleApp2\\ConsoleApp5\\Program.cs",
               "RelativeToolTip": "ConsoleApp5\\Program.cs",
-              "ViewState": "AgIAACMCAAAAAAAAAAAwwP4BAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAPYBAAAAAAAAAAAwwP4BAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T16:41:53.018Z"
+              "WhenOpened": "2024-12-24T16:41:53.018Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1041,7 +1038,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\ConsoleApp2\\ConsoleApp4\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp4\\Program.cs",
@@ -1053,7 +1050,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 64,
               "Title": "Program.cs",
               "DocumentMoniker": "Y:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u0417\u0430\u0434\u0430\u043D\u0438\u044F\\\u0421\u0435\u0433\u043E\u0434\u043D\u044F\\Program.cs",
               "ToolTip": "Y:\\\u041F\u0430\u043D\u0444\u0438\u043B\u043E\u0432 \u0410 \u0414\\C#\\\u0417\u0430\u0434\u0430\u043D\u0438\u044F\\\u0421\u0435\u0433\u043E\u0434\u043D\u044F\\Program.cs",
@@ -1062,7 +1059,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\ConsoleApp2\\ConsoleApp3\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp3\\Program.cs",
@@ -1070,8 +1067,11 @@
               "RelativeToolTip": "ConsoleApp3\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADwBAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T16:34:49.697Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T16:34:49.697Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
