@@ -261,25 +261,7 @@ string vowels = "аоыэуюиеёяАОЫЭУЮИЕЁ";
 string result = new string(str.Select(c => vowels.Contains(c) ? '*' : c).ToArray());
 Console.WriteLine(result); 
 
-for (int i = 1; i <= 10; i++)
-{
 
-    for (int j = 1; j <= 10; j++)
-    {
-        int product = i * j;
-        Console.Write($"{product,4}");
-    }
-    Console.WriteLine();
-}
-
-for (int i = 1; i <= 5; i++)
-{
-    for (int j = 1; j <= i; j++)
-    {
-        Console.Write("*");
-    }
-    Console.WriteLine();
-}
 
 
         int rows = 5; // Количество строк в верхней половине ромба (можно изменить)
